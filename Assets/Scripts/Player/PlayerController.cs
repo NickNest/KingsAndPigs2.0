@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _jumpForce = 3f;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private LayerMask _ground;
-    [SerializeField] private int _jumpValueIteration = 60;
     [SerializeField] private int _maxJumpValue = 2;
+
     private int  _jumpCount = 0;
     private float _checkRadius = 0.5f;
     private bool _isOnGround; 
